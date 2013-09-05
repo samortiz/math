@@ -1,0 +1,72 @@
+ul.nav_bar {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+
+li.nav_tab {
+  display:inline;
+}
+
+a.nav:link, a.nav:visited {
+  font-weight:bold;
+  color:#000000;
+  background-color:#AACCCC;
+  text-align:center;
+  padding:3px;
+  text-decoration:none;
+}
+
+a.nav:hover, a.nav:active {
+  background-color:#CCEEEE;
+}
+
+a.selected_tab:hover, a.selected_tab:active, a.selected_tab:link, a.selected_tab:visited {
+  font-weight:bold;
+  color:#000000;
+  background-color:#CCEEEE;
+  text-align:center;
+  padding:3px;
+  text-decoration:none;
+  
+}
+
+.tab_bar_bottom {
+  background:#CCEEEE; 
+  height:5px
+}
+
+.centered {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.box {
+  margin-left:auto; 
+  margin-right:auto;
+  border:1px solid black; 
+  background-color:#EEFEFE;
+  padding:5px
+}
+
+.question_box {
+  font-family:"courier new","monaco", "courier";
+  font-weight:bold;
+  font-size:30px;
+  text-align:right;
+}
+.qustion_box hr {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.answer_input {
+  text-align:right;
+  font-family:"courier new", "monaco", "courier";
+  font-weight:bold;
+  color:black;
+  font-size:30px
+}
+
+

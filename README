@@ -1,0 +1,25 @@
+math
+====
+
+Web site that helps learn basic math.
+
+Features : 
+ - Flexible question / answer format
+ - Keeps personal and global high scores
+ - Improves timing and accuracy
+
+
+Admin 
+  Use generatequestions.py to generate all the questions in the
+  database.  This may take a very long time depending on how many 
+  questions you want to create.  I usually would comment out parts of 
+  the file and run different sets of questions. 
+
+Installation : 
+  To setup you will need to use a postgres database
+  You need to set your username and password in db_functions.py 
+
+  To initialize the database you can use the create_schema.sql script
+  run it with a command like : 
+     psql -d math -U www -f create_schema.sql
+
